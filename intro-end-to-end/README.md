@@ -53,7 +53,3 @@ For comprehensive platform documentation, visit [docs.contextual.ai](https://doc
 ## Support
 
 For additional support or questions, please refer to the official documentation or contact the Contextual AI support team.
-
-## License
-
-[Include your license information here]
