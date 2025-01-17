@@ -1,2 +1,2 @@
-contextual
+contextual-client
 requests
