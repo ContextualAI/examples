@@ -30,7 +30,7 @@ This repository contains practical examples and demonstrations of how to interac
     ```
 3. 📦 Install required dependencies
     ```bash
-    pip install -r requirements.text
+    pip install -r requirements.txt
     ```
 4. 🎮 Run the example notebook
 
