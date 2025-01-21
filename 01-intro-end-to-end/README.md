@@ -1,6 +1,6 @@
 # Contextual AI Platform Intro Examples
 
-![Contextual AI Logo](https://imagedelivery.net/Dr98IMl5gQ9tPkFM5JRcng/3e5f6fbd-9bc6-4aa1-368e-e8bb1d6ca100/Ultra)
+<img src="https://imagedelivery.net/Dr98IMl5gQ9tPkFM5JRcng/3e5f6fbd-9bc6-4aa1-368e-e8bb1d6ca100/Ultra" alt="Alt Text" width="300">
 
 This repository contains example notebooks demonstrating how to use the Contextual AI Platform for creating and deploying generative AI agents. The examples focus on implementing Retrieval-Augmented Generation (RAG) for financial use cases.
 
@@ -45,10 +45,21 @@ For comprehensive platform documentation, visit [docs.contextual.ai](https://doc
 ## Getting Started
 
 1. Clone this repository
+    ```bash
+    git clone https://github.com/ContextualAI/examples
+    ```
 2. Install required dependencies
+    ```bash
+    pip install -r requirements.txt
+    ```
 3. Choose your preferred implementation:
     - [api_example.ipynb](api_example.ipynb): Direct API implementation
     - [python_client_example.ipynb](python_client_example.ipynb): Python client library implementation
+
+4. Start jupyter lab:
+    ```bash
+    jupyter lab
+    ```
 
 ## Support
 
