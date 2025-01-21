@@ -1,0 +1,62 @@
+[
+  {
+    "guideline": "You are an AI assistant specialized in financial analysis and reporting. Your responses should be precise, accurate, and sourced exclusively from official financial documentation provided to you.",
+    "prompt": "How was the revenue by operating segments of Alphabet in Q1 FY2023?",
+    "reference": "As of Q1 FY2023, Alphabet's revenue from its three largest segments was as follows: Google Services: USD $21,737 million Other Bets: USD $1,225 million Corporate costs, unallocated: USD $3,288 million.",
+    "knowledge": []
+  },
+  {
+    "guideline": "You are an AI assistant specialized in financial analysis and reporting. Your responses should be precise, accurate, and sourced exclusively from official financial documentation provided to you.",
+    "prompt": "What was the cost of sales of Alphabet in Q1 FY2023?",
+    "reference": "The cost of sales of Alphabet in Q1 FY2023 was USD $30,612 million.",
+    "knowledge": []
+  },
+  {
+    "guideline": "You are an AI assistant specialized in financial analysis and reporting. Your responses should be precise, accurate, and sourced exclusively from official financial documentation provided to you.",
+    "prompt": "What was the amount of repayment of debt by Apple in Q1 FY2023?",
+    "reference": "The net repayment of debt by Apple in Q1 FY2023 was USD $9,615 million.",
+    "knowledge": []
+  },
+  {
+    "guideline": "You are an AI assistant specialized in financial analysis and reporting. Your responses should be precise, accurate, and sourced exclusively from official financial documentation provided to you.",
+    "prompt": "What was the value of net cash provided by operating activities of Apple in Q1 FY2023?",
+    "reference": "The operating cashflow of Apple in Q1 FY2023 was USD $34,005 million.",
+    "knowledge": []
+  },
+  {
+    "guideline": "You are an AI assistant specialized in financial analysis and reporting. Your responses should be precise, accurate, and sourced exclusively from official financial documentation provided to you.",
+    "prompt": "What was the total debt of Meta in Q2 FY2023?",
+    "reference": "The documents provided are only for Q1 FY2023. This information is beyond the scope of what's available.",
+    "knowledge": []
+  },
+  {
+    "guideline": "You are an AI assistant specialized in financial analysis and reporting. Your responses should be precise, accurate, and sourced exclusively from official financial documentation provided to you.",
+    "prompt": "How was the revenue by operating segments of Alphabet in Q1 FY2023?",
+    "reference": "As of Q1 FY2023, Alphabet's revenue from its three largest segments was as follows: Google Services: USD $21,737 million Other Bets: USD $1,225 million Corporate costs, unallocated: USD $3,288 million.",
+    "knowledge": []
+  },
+  {
+    "guideline": "You are an AI assistant specialized in financial analysis and reporting. Your responses should be precise, accurate, and sourced exclusively from official financial documentation provided to you.",
+    "prompt": "What was the cost of sales of Alphabet in Q1 FY2023?",
+    "reference": "The cost of sales of Alphabet in Q1 FY2023 was USD $30,612 million.",
+    "knowledge": []
+  },
+  {
+    "guideline": "You are an AI assistant specialized in financial analysis and reporting. Your responses should be precise, accurate, and sourced exclusively from official financial documentation provided to you.",
+    "prompt": "What was the amount of repayment of debt by Apple in Q1 FY2023?",
+    "reference": "The net repayment of debt by Apple in Q1 FY2023 was USD $9,615 million.",
+    "knowledge": []
+  },
+  {
+    "guideline": "You are an AI assistant specialized in financial analysis and reporting. Your responses should be precise, accurate, and sourced exclusively from official financial documentation provided to you.",
+    "prompt": "What was the value of net cash provided by operating activities of Apple in Q1 FY2023?",
+    "reference": "The operating cashflow of Apple in Q1 FY2023 was USD $34,005 million.",
+    "knowledge": []
+  },
+  {
+    "guideline": "You are an AI assistant specialized in financial analysis and reporting. Your responses should be precise, accurate, and sourced exclusively from official financial documentation provided to you.",
+    "prompt": "What was the total debt of Meta in Q2 FY2023?",
+    "reference": "The documents provided are only for Q1 FY2023. This information is beyond the scope of what's available.",
+    "knowledge": []
+  }
+]
