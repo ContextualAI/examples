@@ -40,30 +40,38 @@ These examples focus on creating a financial RAG agent that:
 
 Three data files are used in these notebooks, an ingested document, evaluation dataset, and a training dataset. These are toy datasets to illustrate the functionality of the platform.
 
-      Ingestion: Apple.pdf
+- **Ingestion:** `Apple.pdf`
 
-      Evaluation: eval_short.csv
+- **Evaluation:** `eval_short.csv`
 
-      Training: fin_train.jsonl
+- **Training:** `fin_train.jsonl`
+
+## 🚀 Getting Started
+
+To quickly get started running the notebook we reccomend using [Google Colab](https://colab.research.google.com/). If you'd prefer to run it locally, you can run in VS Code following these steps:
+
+1. 📥 Clone this repository
+    ```bash
+    git clone https://github.com/ContextualAI/examples
+    cd examples/
+    ```
+
+2. 🌎 Create a virtual environment:
+
+    ```bash
+    python -m venv . && source bin/activate
+    ```
+
+3. 📦 Install required dependencies
+    ```bash
+    pip install -r requirements.txt
+    ```
+4. 🎮  Open the notebook in VS Code, click on "Select Kernel" (top right) -> "Python Environments" and select the newly created `venv` environment:
 
 
-## Getting Started
+    ![](../images/vs-code-jupyter-setup.png)
 
-1. Clone the repo: `git clone https://github.com/ContextualAI/examples.git`
-2. To run this notebook locally in [VS Code](https://code.visualstudio.com/):
-
-    2.1 Open the terminal, switch to `examples` directory and create a Python virtual environment:
-
-        python -m venv .
-    2.2 Activate the virtual environment:
-        
-        source bin/activate
-    2.3 Intall the dependencies
-
-        pip install -r requirements.txt
-    2.4 Finally, to get started: open the notebook [Quick-start.ipynb](quick-start.ipynb) and click on "Select Kernel" (top right) -> "Python Environments" and select the newly created kernel    
-
-
-## Support
-
-For additional support or questions, please refer to the official documentation or contact the Contextual AI support team.
+5. 🔑 Set up your API credentials in the respective [notebook](01-getting-started/end-to-end-example.ipynb)
+    ```bash
+    API_TOKEN = '...'  # Replace with your actual API token
+    ```
