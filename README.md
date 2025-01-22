@@ -23,7 +23,7 @@ This repository contains practical examples and demonstrations of how to interac
     ```bash
     git clone https://github.com/ContextualAI/examples
     ```
-2. 🔑 Set up your API credentials in the respective [notebook](python/dataset-api-example.ipynb)
+2. 🔑 Set up your API credentials in the respective [notebook](01-getting-started/end-to-end-example.ipynb)
     ```bash
     API_TOKEN = '...'  # Replace with your actual API token
     ```
