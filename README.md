@@ -6,16 +6,15 @@ Welcome to our collection of example notebooks showcasing the power of Contextua
 
 This repository contains practical examples and demonstrations of how to interact with Contextual's API, helping you get started quickly and efficiently. You can run these examples in any jupyter notebook but an easy way to get started is Colab notebooks:
 
-<a target="_blank" href="https://colab.research.google.com/github/ContextualAI/ContextualAI-Examples/blob/main/python/dataset-api-example.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github/ContextualAI/examples/blob/main/01-getting-started/end-to-end-example.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
 ## 📚 Contents
 
 - 📓 Jupyter notebooks with step-by-step examples:
-  - [Dataset API Example](python/dataset-api-example.ipynb) - Learn how to upload your own dataset
-  - [Model API Example](python/model-api-example.ipynb) - Explore how to use the Model API
-  - [Tune API Example](python/evaluation-api-example.ipynb) - Discover how to use our Tune API
+  - [End to End Example](01-getting-started/) - End to End example of the Contextual Platform
+  - [Hands on Lab](02-hands-on-lab/) - Lab broken into three chapters, Creating Agent & Datastores, Evaluation, and Tuning
 
 
 ## 🚀 Getting Started
@@ -45,7 +44,7 @@ This repository contains practical examples and demonstrations of how to interac
 
 - 🔄 Basic API calls to create an Application
 - 📊 Tune your Application
-- 📈 Add your own dataset
+- 📈 Evaluation and Hillclimbing
 
 ## 🤝 Contributing
 
