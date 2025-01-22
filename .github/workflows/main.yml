@@ -16,7 +16,7 @@ jobs:
     steps:
       # Step 1: Check out the repository
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0  # Ensures full history for accurate scanning
 
@@ -28,7 +28,7 @@ jobs:
 
       # Step 3: Upload scan results as an artifact (optional)
       - name: Upload Scan Results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: trufflehog-results
           path: ./trufflehog-results.json
