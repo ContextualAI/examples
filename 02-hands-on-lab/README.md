@@ -8,7 +8,11 @@ Contextual AI lets you create and run specialized AI agents that are powered by 
 
 The full documentation is available at [docs.contextual.ai](https://docs.contextual.ai/)
 
-You can go through this lab in 30-60 minutes and covers the following topics:
+You can go through this lab in 30-60 minutes. To get started in Colab click the following button:
+
+<a target="_blank" href="https://colab.research.google.com/github/ContextualAI/examples/blob/main/02-hands-on-lab/lab1_create_agent.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 ### Lab 1: Creating the Datastore and Agent
 

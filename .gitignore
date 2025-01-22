@@ -2,3 +2,4 @@
 **/.DS_Store
 .ipynb_checkpoints
 eval_results_python.csv
+.env
