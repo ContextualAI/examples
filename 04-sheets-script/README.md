@@ -12,6 +12,7 @@ A Google Sheets script that automates form filling using Contextual AI's API int
 <br>
 
 ![Sheets Demo](sheets_demo.gif)
+
 See how to use the script and configure it
 
 ## Configuring Sheets Script
@@ -37,7 +38,7 @@ Main function that coordinates the data fetching process
 Handles sheet range selection and iteration
 Manages API call scheduling
 
-```
+```javascript
 function fetchDataAndPopulateSheet() {
  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
  const loadingCell = sheet.getRange("D1");
@@ -82,7 +83,7 @@ Handles individual API calls to Contextual AI
 Formats request payload
 Processes API responses
 
-```
+```javascript
 function makeApiCall(data, scopeMetadata, apiUrl, apiKey, sheet) {
   const { field, instructions, row } = data;
  console.log(`Starting call: ${row}`)
@@ -146,5 +147,6 @@ The script includes basic error handling:
 - Regularly rotate API keys
 - Limit script access to necessary users only
 
-<br>
-This guide assumes basic familiarity with Google Sheets and Apps Script. For detailed API documentation, refer to [Contextual AI's official documentation](https://docs.contextual.ai/).
+## Troubleshooting
+
+This guide assumes basic familiarity with Google Sheets and Apps Script. For detailed API documentation, refer to [API docs](https://docs.contextual.ai/).
