@@ -16,6 +16,12 @@ A Google Sheets script that automates form filling using Contextual AI's API int
 See how to use the script and configure it
 
 ## Configuring Sheets Script
+
+> [!NOTE]  
+> To get started, make sure you have an Agent. If you don't have one, you can create one [here](https://github.com/ContextualAI/examples/blob/main/01-getting-started/quick-start.ipynb).
+
+- Next make sure the documents [Vanguard BND Prospectus](data/F0928.pdf) and [iShares Goverment Bond Prospectus](data/govt-ishares-u-s-treasury-bond-etf-fund-fact-sheet-en-us.pdf) are uploaded to the Agent's datastore.
+
 - Here is an [example Google sheet](https://docs.google.com/spreadsheets/d/1Yh8SWJaF88Jz040j4dudSKJS5Npkbz4lxfdDHj9agkw/edit?usp=sharing) with the script installed
 - Go to File > Make a copy (this way you have your own version)
 - Go to Extensions > Apps Script
