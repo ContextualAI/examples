@@ -33,7 +33,7 @@ We show this using FEMA's Public Assistance Program and Policy Guide, which has 
 - V3.1 (2018) - 217 pages - [source](https://www.fema.gov/sites/default/files/documents/fema_pappg-v3.1-archived_policy_5-4-2018.pdf) 
 - V2 (2017) - 207 pages - [source](https://s3-us-west-2.amazonaws.com/asfpm-library/Digital+Coast/Public_Assistance_Prog_Policy_Guide_FEMA_2017.pdf)
 
-Source documents are included in the [`data`](/data) folder.
+Source documents are included in the [data](data) folder.
 
 
 ## Getting Started
@@ -66,7 +66,7 @@ The agent can also help generate insights based on changes, try these queries:
 
 #### Updating on New Information 
 
-To see how the RAG agent responds to new information, add the [FEMA_2025_updates]('FEMA_2025_updates.txt') to the datastore. This is a synthetic update to show that the agent responds to new information. After loading in the datastore, try the query:
+To see how the RAG agent responds to new information, add the [FEMA_2025_updates](FEMA_2025_updates.txt) to the datastore. This is a synthetic update to show that the agent responds to new information. After loading in the datastore, try the query:
 
 - How has cost eligibility changed
 
