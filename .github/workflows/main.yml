@@ -23,8 +23,6 @@ jobs:
       # Step 2: Run TruffleHog scan
       - name: Run TruffleHog
         uses: trufflesecurity/trufflehog@main
-        with:
-          extra_args: --only-verified  # Optional: add custom arguments if needed
 
       # Step 3: Upload scan results as an artifact (optional)
       - name: Upload Scan Results
