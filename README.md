@@ -17,7 +17,7 @@ This repository contains practical examples and demonstrations of how to interac
   - 🧪 [LMUnit](03-lmunit/) - Evaluating LLM response quality using Natural Language Unit Testing and LMUnit.
   - 📊 [Sheets Script](04-sheets-script/) - A Google Sheets script that automates form filling using Contextual AI's API integration.
   - 📝 [Policy Changes](05-policy-changes/) - An example use case for tracking changes in long policy documents.
-  - 📈 [Eval and Tuning](06-eval-tune/) - An example use case for evaluating and tuning an application.
+  - 📈 [Improving Agent](06-improve-agent-performance/) - An example use case for improving or specializing your RAG agent.
 
 ## 🚀 Getting Started
 
