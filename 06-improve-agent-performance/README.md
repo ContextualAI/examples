@@ -2,12 +2,12 @@
 
 <img src="https://imagedelivery.net/Dr98IMl5gQ9tPkFM5JRcng/3e5f6fbd-9bc6-4aa1-368e-e8bb1d6ca100/Ultra" alt="Alt Text" width="300">
 
-This repository contains an example notebook demonstrating how to evaluate and tune your model. This guide is a python implementation of the [Evaluation and Tune documentation](https://docs.contextual.ai/reference/tune-evaluation-guide).
+This repository contains an example notebook providing a  deep dive on specializing or improving your Contextual AI agents.
 
 ## Repository Structure
 
 This repository includes the following:
-- [tune_and_eval.ipynb](tune_and_eval.ipynb): Jupyter notebook that uses the Python SDK.
+- [improvement-overview.ipynb](improvement-overview.ipynb): Jupyter notebook that uses the Python SDK.
 
 ## Features
 
@@ -16,10 +16,13 @@ This repository includes the following:
 
 
 This notebook has the following steps:
-- Create a tune job based on [data/Dummy_Tuneset.json](data/Dummy_Tuneset.json)
-- Query the status of the tune job
-- Deploy the tuned model
-- Eval the model using [data/Dummy_EvalSet.csv](data/Dummy_EvalSet.csv)
+- Queries / Retrievals
+- Evaluation Job
+- Modifying System Prompt
+- Retrieval Settings
+- Generation Settings
+- Tuning the Agent
+
 
 ## Quick Start
 
@@ -54,7 +57,7 @@ For comprehensive platform documentation, visit [docs.contextual.ai](https://doc
     ```bash
     jupyter lab
     ```
-4. Run through the steps in [tune_and_eval.ipynb](./tune_and_eval.ipynb)
+4. Run through the steps in the notebook
 
 ## Support 🐛
 
