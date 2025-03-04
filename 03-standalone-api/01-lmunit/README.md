@@ -11,7 +11,7 @@ The notebook introduces LMUnit, a specialized model developed by Contextual AI t
 ## Repository Structure
 
 This repository includes one primary example:
-- [LMUnit.ipynb](LMUnit.ipynb): A step-by-step notebook for using natural language unit tests for LLM response evaluation.
+- [lmunit.ipynb](lmunit.ipynb): A step-by-step notebook for using natural language unit tests for LLM response evaluation.
 
 The notebook can be completed in under 15 minutes. 
 
