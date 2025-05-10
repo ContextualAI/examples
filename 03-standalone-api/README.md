@@ -12,13 +12,13 @@ Key features:
 - Structured testing methodology
 - API access available (free access can be requested)
 
-See the [LMUnit example](01-lmunit/README.md) for a detailed walkthrough using financial services as a case study.
+See the [LMUnit example](01-lmunit/lmunit.ipynb) for a detailed walkthrough using financial services as a case study.
 
 ## Generate
 
 Generate is Contextual AI's Grounded Language Model.
 
-See the [Generate example](02-generate/README.md) for a demonstration of using the Generate API to power text generation applications.
+See the [Generate example](02-generate/generate.ipynb) for a demonstration of using the Generate API to power text generation applications.
 
 ## Rerank
 
@@ -34,13 +34,12 @@ See the [Rerank example](03-rerank/rerank.ipynb) for a demonstration of using th
 
 ## Parse
 
-Parse is Contextual AI's structured data extraction model. It excels at converting unstructured text into structured formats by identifying and extracting key information based on provided schemas.
+Parse is Contextual AI's structured data extraction model. It excels at converting unstructured text (PDF, DOCX) into markdown format by identifying and extracting key information.
 
 Key features:
-- Extracts structured data from unstructured text
-- Schema-guided parsing for consistent outputs
-- High accuracy extraction of complex information
-- Supports multiple output formats (JSON, XML, etc.)
-- Fast and reliable processing at scale
+- Extracts unstructured data into markdown text
+- Hierarchical representation of sections including title, headers, ect.
+- Table extraction
+- Multiple output formats (markdown-per-page, markdown-document, and blocks-per-page)
 
 See the [Parse example](04-parse/parse.ipynb) for a demonstration of using the Parse API to extract structured data from documents.
