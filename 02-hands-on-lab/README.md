@@ -4,11 +4,11 @@
 
 ## Hands-on Lab: Creating a Specialized RAG Agent
 
-Contextual AI lets you create and run specialized AI agents that are powered by your data. These notebooks introduce an end-to-end example workflow for creating a Retrieval-Augmented Generation (RAG) agent for a financial use case. The agent will answer questions based on the documents provided, but avoid any forward looking statements, e.g., Tell me about sales in 2028. 
+Contextual AI lets you create and run specialized AI agents that are powered by your data. This notebook introduces creating a Retrieval-Augmented Generation (RAG) agent for a financial use case. The agent will answer questions based on the documents provided, but avoid any forward looking statements, e.g., Tell me about sales in 2028. 
 
 The full documentation is available at [docs.contextual.ai](https://docs.contextual.ai/)
 
-You can go through this lab in 30-60 minutes. To get started in Colab click the following button:
+You can go through this lab in 15-30 minutes. To get started in Colab click the following button:
 
 <a target="_blank" href="https://colab.research.google.com/github/ContextualAI/examples/blob/main/02-hands-on-lab/lab1_create_agent.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
@@ -22,14 +22,6 @@ In this lab you will learn how to:
   - Ingesting Documents: we will use a single PDF document but the platform is fully scalable and supports HTML among other formats
   - Creating an RAG Agent: all you need is a good system prompt to get started
   - Query a RAG Agent: answers based on your data and nothing more
-
-### Lab 2: Evaluating the RAG Agent
-
-  - Evaluate the accuracy using a sample eval set
-
-### Lab 3: Improving the RAG Agent using:
-  - Prompt engineering
-  - Fine-tuning
 
 ## Prerequisites:
 
@@ -68,7 +60,7 @@ To quickly get started running the notebook we reccomend using [Google Colab](ht
 
     ![](../images/vs-code-jupyter-setup.png)
 
-5. 🔑 Set up your API credentials in the respective [notebook](01-getting-started/end-to-end-example.ipynb)
+5. 🔑 Set up your API credentials in the respective [notebook](02-hands-on-lab/lab1_create_agent.ipynb)
     ```bash
     API_TOKEN = '...'  # Replace with your actual API token
     ```

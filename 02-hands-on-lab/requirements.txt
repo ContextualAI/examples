@@ -1,3 +1,2 @@
 contextual-client
 requests
-pandas

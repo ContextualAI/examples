@@ -6,11 +6,9 @@ This repository contains example notebooks demonstrating how to use the Contextu
 
 ## Repository Structure
 
-This repository includes two implementation approaches:
-- [Quick-start.ipynb](quick-start.ipynb): Get started fast!
-- [End-to-end-example.ipynb](end-to-end-example.ipynb): A complete walkthrough of a use case from creation to tuning.
+This repository includes sample data and a quick-start guide:  [Quick-start.ipynb](quick-start.ipynb) to help you get started quickly!
 
-The examples can be completed in under 15 minutes (excluding model tuning). Each notebook is self-contained and includes detailed explanations for each step.
+The example can be completed in under 15 minutes. The notebook is self-contained and includes detailed explanations for each step.
 
 For comprehensive platform documentation, visit [docs.contextual.ai](https://docs.contextual.ai/)
 
@@ -38,13 +36,9 @@ These examples focus on creating a financial RAG agent that:
 - Handles financial data responsibly
 - Provides accurate, document-based responses
 
-Three data files are used in these notebooks, an ingested document, evaluation dataset, and a training dataset. These are toy datasets to illustrate the functionality of the platform.
+Some sample data files are used in these notebooks, an ingested document, and some additional documents included in zipped folders if you want to test ingesting multiple documents.
 
-- **Ingestion:** `Apple.pdf`
-
-- **Evaluation:** `eval_short.csv`
-
-- **Training:** `fin_train.jsonl`
+- **Ingestion:** `Apple.pdf` (with additional pdf's included in the zip files)
 
 ## 🚀 Getting Started
 
@@ -71,7 +65,7 @@ To quickly get started running the notebook we reccomend using [Google Colab](ht
 
     ![](../images/vs-code-jupyter-setup.png)
 
-5. 🔑 Set up your API credentials in the respective [notebook](01-getting-started/end-to-end-example.ipynb)
+5. 🔑 Set up your API credentials in the respective [notebook](01-getting-started/quick-start.ipynb)
     ```bash
     API_TOKEN = '...'  # Replace with your actual API token
     ```
