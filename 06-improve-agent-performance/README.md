@@ -1,8 +1,8 @@
-# Evaluation and Tune Example 📊
+# Agent Improvement Walkthrough 📊
 
 <img src="https://imagedelivery.net/Dr98IMl5gQ9tPkFM5JRcng/3e5f6fbd-9bc6-4aa1-368e-e8bb1d6ca100/Ultra" alt="Alt Text" width="300">
 
-This repository contains an example notebook providing a  deep dive on specializing or improving your Contextual AI agents.
+This repository contains an example notebook providing a deep dive on specializing or improving your Contextual AI agents.
 
 ## Repository Structure
 
@@ -21,7 +21,6 @@ This notebook has the following steps:
 - Modifying System Prompt
 - Retrieval Settings
 - Generation Settings
-- Tuning the Agent
 
 
 ## Quick Start

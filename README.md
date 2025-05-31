@@ -18,6 +18,7 @@ This repository contains practical examples and demonstrations of how to interac
   - 📊 [Sheets Script](04-sheets-script/) - A Google Sheets script that automates form filling using Contextual AI's API integration.
   - 📝 [Policy Changes](05-policy-changes/) - An example use case for tracking changes in long policy documents.
   - 📈 [Improving Agent](06-improve-agent-performance/) - An example use case for improving or specializing your RAG agent.
+  - ⚖️ [Using RAGAS for Evaluation](07-evaluation-ragas/) - An example of using RAGAS for evaluation of a RAG agent.
 
 ## 🚀 Getting Started
 
@@ -45,7 +46,7 @@ This repository contains practical examples and demonstrations of how to interac
 ## 💡 Examples Include
 
 - 🔄 Basic API calls to create an Application
-- 📊 Tune your Application
+- 📊 Configuration your Application
 - 📈 Evaluation and Hillclimbing
 
 ## 🤝 Contributing
