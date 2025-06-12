@@ -45,10 +45,10 @@ This repository contains practical examples and demonstrations of how to interac
 
 ## 💡 Related Examples
 
-- 🧠 [Contextual MCP Server](https://github.com/ContextualAI/contextual-mcp-server)
+- 🧠 [Contextual AI MCP Server](https://github.com/ContextualAI/contextual-mcp-server)
 - 📚 [Benchmarking with RAG QA Arena](https://github.com/rajshah4/LLM-Evaluation/tree/main/RAG_QA_Arena)
-- 🧪 [Full Stack Deep Research with Gemini and LangGraph](https://github.com/rajshah4/contextualai-gemini-research-agent)
-- 🧭 [Deep Research Agent using Agno, Tavily, and Langfuse](https://github.com/rajshah4/LLM-Evaluation/blob/main/ResearchAgent_Agno_LangFuse.ipynb)
+- 🧪 [Full Stack Deep Research with Gemini, Contextual AI, and LangGraph](https://github.com/rajshah4/contextualai-gemini-research-agent)
+- 🧭 [Deep Research Agent using Agno, Contextual AI,  Tavily, and Langfuse](https://github.com/rajshah4/LLM-Evaluation/blob/main/ResearchAgent_Agno_LangFuse.ipynb)
 
 ## 🤝 Contributing
 
