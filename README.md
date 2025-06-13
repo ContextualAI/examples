@@ -49,6 +49,7 @@ This repository contains practical examples and demonstrations of how to interac
 - 📚 [Benchmarking with RAG QA Arena](https://github.com/rajshah4/LLM-Evaluation/tree/main/RAG_QA_Arena)
 - 🧪 [Full Stack Deep Research with Gemini, Contextual AI, and LangGraph](https://github.com/rajshah4/contextualai-gemini-research-agent)
 - 🧭 [Deep Research Agent using Agno, Contextual AI,  Tavily, and Langfuse](https://github.com/rajshah4/LLM-Evaluation/blob/main/ResearchAgent_Agno_LangFuse.ipynb)
+- 👁️ [Using Dify.AI with Contextual AI](https://www.youtube.com/watch?v=3WNUoKiwd2U)
 
 ## 🤝 Contributing
 
