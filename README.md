@@ -19,7 +19,7 @@ This repository contains practical examples and demonstrations of how to interac
   - 📝 [Policy Changes](05-policy-changes/) - An example use case for tracking changes in long policy documents.
   - 📈 [Improving Agent](06-improve-agent-performance/) - An example use case for improving or specializing your RAG agent.
   - ⚖️ [Using RAGAS for Evaluation](07-evaluation-ragas/) - A walkthrough for using RAGAS on a RAG agent.
-  - 🎯 [LMUnit Evaluation for RewardBench](09-lmunit-rewardbench/) - Showing LMUnit for evaluting RewardBench.
+  - 🎯 [LMUnit Evaluation for RewardBench](09-lmunit-rewardbench/) - Showing LMUnit for evaluating RewardBench.
 
 ## 🚀 Getting Started
 
