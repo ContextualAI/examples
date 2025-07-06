@@ -2,16 +2,17 @@
 
 This repo provides functionality to evaluate Contextual AI Grounded Language Model (GLM) responses using the FACTS Grounding benchmark framework.
 A [script](GLMv2_FACTS.py) is inclulded to generate responses for evaluating Contextual AI for the FACTS benchmark.
-An upcoming notebook will walk through the process of assessing factual grounding and quality across multiple LLM models using LLM judges including Gemini-1.5-pro, GPT-4o, and Claude-3-5-sonnet. 
+A [notebook](facts-starter.ipynb) walks through generating responses and evaluating the models for the FACTS benchmark on the public. 
 
 ## **Prerequisites**
 * [Contextual API key](https://app.contextual.ai/) [Notebook and Script]
 * Google AI Studio API key [Notebook only]
 * OpenAI API key  [Notebook only]
 * Anthropic API key  [Notebook only]
+* FACTS public benchmark [Notebook only]
 
 ## **Dataset**
-The script uses the [FACTS Grounding 1.0 Public Examples](https://kaggle.com/datasets/deepmind/FACTS-grounding-examples/data) dataset containing:
+The notebook uses the [FACTS Grounding 1.0 Public Examples](https://kaggle.com/datasets/deepmind/FACTS-grounding-examples/data) dataset containing:
 * 860 public examples (out of 1,719 total examples)
 
 ## **Notes**
