@@ -17,9 +17,10 @@ This repository contains practical examples and demonstrations of how to interac
   - 🔧 [Standalone API](03-standalone-api/) - Examples of using individual API endpoints like `/generate` and `/rerank`, `/parse` and `/lmunit`.
   - 📊 [Sheets Script](04-sheets-script/) - A Google Sheets script that automates form filling using Contextual AI's API integration.
   - 📝 [Policy Changes](05-policy-changes/) - An example use case for tracking changes in long policy documents.
-  - 📈 [Improving Agent](06-improve-agent-performance/) - An example use case for improving or specializing your RAG agent.
+  - 📈 [Improving Agent](06-improve-agent-performance/) - Settings for improving or specializing your RAG agent.
   - ⚖️ [Using RAGAS for Evaluation](07-evaluation-ragas/) - A walkthrough for using RAGAS on a RAG agent.
   - 🎯 [LMUnit Evaluation for RewardBench](09-lmunit-rewardbench/) - Showing LMUnit for evaluating RewardBench.
+  - 🎯 [FACTS Benchmark](10-FACTS-benchmarks/) - Benchmark for evaluating grounding for LLMs
 
 ## 🚀 Getting Started
 
