@@ -21,6 +21,7 @@ This repository contains practical examples and demonstrations of how to interac
   - ⚖️ [Using RAGAS for Evaluation](07-evaluation-ragas/) - A walkthrough for using RAGAS on a RAG agent.
   - 🎯 [LMUnit Evaluation for RewardBench](09-lmunit-rewardbench/) - Showing LMUnit for evaluating RewardBench.
   - 🎯 [FACTS Benchmark](10-FACTS-benchmarks/) - Benchmark for evaluating grounding for LLMs
+  - 🔍 [Retrieval Analysis](11-retrieval-analysis/) - Notebooks for an end-to-end evaluation of RAG retrieval
 
 ## 🚀 Getting Started
 
