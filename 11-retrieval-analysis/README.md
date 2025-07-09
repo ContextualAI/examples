@@ -9,6 +9,8 @@ This pipeline provides an end-to-end solution for rigorously evaluating RAG syst
 2. **Matching ground-truth evidence** to retrieved chunks automatically
 3. **Evaluating retrieval performance** using both traditional IR and modern RAG-specific metrics
 
+A [video walkthrough](https://youtu.be/yPAUcfrBuu0) of these notebooks is available.
+
 ## 🗂️ Pipeline Structure
 
 ```
