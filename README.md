@@ -22,6 +22,8 @@ This repository contains practical examples and demonstrations of how to interac
   - 🎯 [LMUnit Evaluation for RewardBench](09-lmunit-rewardbench/) - Showing LMUnit for evaluating RewardBench.
   - 🎯 [FACTS Benchmark](10-FACTS-benchmark/) - Benchmark for evaluating grounding for LLMs
   - 🔍 [Retrieval Analysis](11-retrieval-analysis/) - Notebooks for an end-to-end evaluation of RAG retrieval
+  - 🧾 [Structured Data Extraction](12-legal-contract-extraction/) - Showing how to perform extraction across legal documents.
+
 
 ## 🚀 Getting Started
 
