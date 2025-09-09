@@ -1,0 +1,3 @@
+# KB — Customer email template (EU)
+
+Localized template for customer emails for European Union. Subject: Your refund and warranty information  Dear Customer, Thank you for your purchase. For products purchased in the European Union: You may request a refund within 30 days of delivery. Digital goods are refundable only if they have not been used or downloaded. Warranty coverage is provided according to EU consumer law.
