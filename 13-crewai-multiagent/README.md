@@ -10,6 +10,45 @@ The research crew consists of 3 specialized agents, each equipped with a dedicat
 - **Document Processor**: Ingests the downloaded papers into a new Contextual AI datastore and initializes a RAG agent using `ContextualAICreateAgentTool`.
 - **Knowledge Assistant**: Uses `ContextualAIQueryTool` to answer user queries with responses grounded in the research papers. The tool automatically waits for document processing completion before querying.
 
+## Architecture Diagram
+
+```
+┌─────────────┐
+│ User Inputs │
+│ • Topic     │
+│ • Question  │
+└──────┬──────┘
+       │
+       ▼
+┌─────────────────────────────────────────────────────────────┐
+│                    CrewAI Crew (Sequential)                │
+│                                                             │
+│  ┌─────────────┐     ┌─────────────┐     ┌─────────────┐   │
+│  │   Agent 1   │────▶│   Agent 2   │────▶│   Agent 3   │   │
+│  │   ArXiv     │     │  Document   │     │ Knowledge   │   │
+│  │ Researcher  │     │ Processor   │     │ Assistant   │   │
+│  └─────────────┘     └─────────────┘     └─────────────┘   │
+│         │                     │                     │       │
+│         ▼                     ▼                     ▼       │
+│  ┌─────────────┐     ┌─────────────┐     ┌─────────────┐   │
+│  │ArxivPaper   │     │DocumentProc │     │StateAware   │   │
+│  │Tool         │     │Tool         │     │Contextual   │   │
+│  │             │     │             │     │Tool         │   │
+│  └─────────────┘     └─────────────┘     └─────────────┘   │
+└─────────────────────────────────────────────────────────────┘
+       │                     │                     │
+       ▼                     ▼                     ▼
+┌─────────────┐     ┌─────────────────────┐     ┌─────────────┐
+│   ArXiv     │     │   Contextual AI     │     │ Final Answer│
+│    API      │     │   Service           │     │ (unmodified │
+│             │     │ • create_with_docs  │     │  response)  │
+│Downloads    │     │ • agent_id stored   │     │             │
+│2 PDFs to    │     │ • datastore_id      │     │             │
+│./arxiv_pdfs │     │   stored in         │     │             │
+│             │     │   PipelineState     │     │             │
+└─────────────┘     └─────────────────────┘     └─────────────┘
+```
+
 ## Setup
 
 1. Install dependencies:
