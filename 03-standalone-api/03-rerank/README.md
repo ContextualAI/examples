@@ -32,7 +32,6 @@ A robust evaluation framework for testing the Contextual AI reranker against sta
   - NDCG@10 (Normalized Discounted Cumulative Gain)
   - MAP (Mean Average Precision)
   - Recall@10
-  - MRR (Mean Reciprocal Rank)
 
 ## 🎯 Available Models
 
@@ -45,7 +44,7 @@ The current reranker models include:
 
 - [Contextual AI Reranker Blog Post](https://contextual.ai/blog/introducing-instruction-following-reranker/)
 - [Open Sourcing Rerank v2](https://contextual.ai/blog/rerank-v2/)
-- [API Documentation](https://docs.contextual.ai/api-reference/rerank/rerank
+- [API Documentation](https://docs.contextual.ai/api-reference/rerank/rerank)
 - [Python SDK Documentation](https://github.com/ContextualAI/contextual-client-python/blob/main/api.md#rerank)
 - [Langchain Package](https://pypi.org/project/langchain-contextual/)
 
