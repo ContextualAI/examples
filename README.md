@@ -10,21 +10,35 @@ This repository contains practical examples and demonstrations of how to interac
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-## 📚 Table of Contents
+## Table of Contents
 
-  - 🚀 [End to End Example](01-getting-started/) - End to End example of the Contextual Platform
-  - 🔬 [Hands on Lab](02-hands-on-lab/) - Lab broken into three chapters, Creating Agent & Datastores, Evaluation, and Tuning
-  - 🔧 [Standalone API](03-standalone-api/) - Examples of using individual API endpoints like `/generate` and `/rerank`, `/parse` and `/lmunit`.
-  - 📊 [Sheets Script](04-sheets-script/) - A Google Sheets script that automates form filling using Contextual AI's API integration.
-  - 📝 [Policy Changes](05-policy-changes/) - An example use case for tracking changes in long policy documents.
-  - 📈 [Improving Agent](06-improve-agent-performance/) - Settings for improving or specializing your RAG agent.
-  - ⚖️ [Using RAGAS for Evaluation](07-evaluation-ragas/) - A walkthrough for using RAGAS on a RAG agent.
-  - 🎯 [LMUnit Evaluation for RewardBench](09-lmunit-rewardbench/) - Showing LMUnit for evaluating RewardBench.
-  - 🎯 [FACTS Benchmark](10-FACTS-benchmark/) - Benchmark for evaluating grounding for LLMs
-  - 🔍 [Retrieval Analysis](11-retrieval-analysis/) - Notebooks for an end-to-end evaluation of RAG retrieval
-  - 🧾 [Structured Data Extraction](12-legal-contract-extraction/) - Showing how to perform extraction across legal documents.
-  - 👀 [Using Metrics API and Monitoring RAG](14-monitoring) - Showing how to monitor your RAG agent
-  - 🏷️ [Metadata Intro](15-metadata-intro/) - Example notebook showing how to work with metadata
+### Getting Started
+- [End to End Example](01-getting-started/) - Complete example of the Contextual Platform
+- [Hands on Lab](02-hands-on-lab/) - Lab broken into three chapters: Creating Agent & Datastores, Evaluation, and Tuning
+- [Standalone API](03-standalone-api/) - Examples of using individual API endpoints like `/generate`, `/rerank`, `/parse`, and `/lmunit`
+- [Contextual AI MCP Server](https://github.com/ContextualAI/contextual-mcp-server)
+
+### Advanced Use Cases
+- [Policy Changes](05-policy-changes/) - Tracking changes in long policy documents
+- [Improving Agent Performance](06-improve-agent-performance/) - Settings for improving or specializing your RAG agent
+- [Retrieval Analysis](11-retrieval-analysis/) - End-to-end evaluation of RAG retrieval
+- [Structured Data Extraction](12-legal-contract-extraction/) - Extraction from unstructured legal documents
+- [Monitoring RAG](14-monitoring) - Using Metrics API to monitor your RAG agent
+- [Metadata Introduction](15-metadata-intro/) - Working with metadata in your RAG Agent
+
+### Integrations
+- [CrewAI Multi-Agent Workflow](13-crewai-multiagent/) - Using CrewAI in a MultiAgent workflow
+- [RAGAS Evaluation](07-evaluation-ragas/) - Using RAGAS for RAG agent evaluation
+- [Google Sheets Script](04-sheets-script/) - Automating form filling using Contextual AI's API
+- [Full Stack Deep Research with Gemini, Contextual AI, and LangGraph](https://github.com/rajshah4/contextualai-gemini-research-agent)
+- [Deep Research Agent using Agno, Contextual AI, Tavily, and Langfuse](https://github.com/rajshah4/LLM-Evaluation/blob/main/ResearchAgent_Agno_LangFuse.ipynb)
+- [Using Dify.AI with Contextual AI](https://www.youtube.com/watch?v=3WNUoKiwd2U)
+
+### Benchmarks & Evaluation
+- [Reranker v2 Benchmarks](03-standalone-api/03-rerank/reranker_benchmarking.ipynb) - Performance evaluation of the reranker
+- [LMUnit Evaluation for RewardBench](09-lmunit-rewardbench/) - Using LMUnit for evaluating RewardBench
+- [FACTS Benchmark](10-FACTS-benchmark/) - Benchmark for evaluating grounding in LLMs
+- [RAG QA Arena](https://github.com/rajshah4/LLM-Evaluation/tree/main/RAG_QA_Arena) - End-to-end RAG benchmark
 
 
 ## 🚀 Getting Started
@@ -49,14 +63,6 @@ This repository contains practical examples and demonstrations of how to interac
 - Jupyter Notebook/Lab
 - Contextual API credentials
 - Required Python packages (listed in `requirements.txt`)
-
-## 💡 Related Examples
-
-- 🧠 [Contextual AI MCP Server](https://github.com/ContextualAI/contextual-mcp-server)
-- 📚 [Benchmarking with RAG QA Arena](https://github.com/rajshah4/LLM-Evaluation/tree/main/RAG_QA_Arena)
-- 🧪 [Full Stack Deep Research with Gemini, Contextual AI, and LangGraph](https://github.com/rajshah4/contextualai-gemini-research-agent)
-- 🧭 [Deep Research Agent using Agno, Contextual AI,  Tavily, and Langfuse](https://github.com/rajshah4/LLM-Evaluation/blob/main/ResearchAgent_Agno_LangFuse.ipynb)
-- 👁️ [Using Dify.AI with Contextual AI](https://www.youtube.com/watch?v=3WNUoKiwd2U)
 
 ## 🤝 Contributing
 
