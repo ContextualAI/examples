@@ -2,7 +2,7 @@
 
 ## Overview
 
-See a Demo! ([Demo](https://mcconaughey-site.vercel.app/))
+See a Demo! ([Demo](https://www.alrightalrightalright.ai/))
 
 Build your own Matthew McConaughey AI agent! This project demonstrates how to create a RAG-powered conversational agent that embodies Matthew McConaughey's wisdom, philosophy, and personality. Inspired by his interview with Joe Rogan where he expressed interest in "a private LLM, fed only with his books, notes, journals, and aspirations," we'll build exactly that using Contextual AI's managed RAG solution.
 
