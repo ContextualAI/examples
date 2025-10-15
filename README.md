@@ -25,6 +25,7 @@ This repository contains practical examples and demonstrations of how to interac
 - [Structured Data Extraction](12-legal-contract-extraction/) - Extraction from unstructured legal documents
 - [Monitoring RAG](14-monitoring) - Using Metrics API to monitor your RAG agent
 - [Metadata Introduction](15-metadata-intro/) - Working with metadata in your RAG Agent
+- [Build your own Matthew McConaughey](16-matthew-mcconaughey) - Building your own custom RAG agent.
 
 ### Integrations
 - [CrewAI Multi-Agent Workflow](13-crewai-multiagent/) - Using CrewAI in a MultiAgent workflow
