@@ -2,6 +2,8 @@
 
 ## Overview
 
+See a Demo! ([Demo](https://mcconaughey-site.vercel.app/))
+
 Build your own Matthew McConaughey AI agent! This project demonstrates how to create a RAG-powered conversational agent that embodies Matthew McConaughey's wisdom, philosophy, and personality. Inspired by his interview with Joe Rogan where he expressed interest in "a private LLM, fed only with his books, notes, journals, and aspirations," we'll build exactly that using Contextual AI's managed RAG solution.
 
 **What You'll Build**: An interactive AI agent that speaks like Matthew McConaughey, drawing from his speeches, interviews, lessons, and life advice—fully grounded in his actual words with no outside influence.
@@ -81,7 +83,7 @@ Learn to:
 
 ### Prerequisites
 - Google Colab account (or local Jupyter environment)
-- Contextual AI workspace ([Sign up free](https://app.contextual.ai/))
+- Contextual AI workspace ([Sign up free](https://contextual.ai/?utm_campaign=McConaughey&utm_source=contextualai&utm_medium=github&utm_content=notebook))
 - API key from your Contextual workspace
 
 ### Quick Start
