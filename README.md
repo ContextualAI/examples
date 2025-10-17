@@ -26,6 +26,7 @@ This repository contains practical examples and demonstrations of how to interac
 - [Monitoring RAG](14-monitoring) - Using Metrics API to monitor your RAG agent
 - [Metadata Introduction](15-metadata-intro/) - Working with metadata in your RAG Agent
 - [Build your own Matthew McConaughey](16-matthew-mcconaughey) - Building your own custom RAG agent.
+- [Multi-turn Conversation](17-multi-turn) -  A chatbot that uses previous messages in the conversation as context for its responses.
 
 ### Integrations
 - [CrewAI Multi-Agent Workflow](13-crewai-multiagent/) - Using CrewAI in a MultiAgent workflow
