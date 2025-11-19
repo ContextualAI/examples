@@ -3,3 +3,5 @@
 .ipynb_checkpoints
 eval_results_python.csv
 .env
+.env.local
+/node_modules
