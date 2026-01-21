@@ -1,7 +1,12 @@
 # RAG Evaluation with RAGAS 📊
 
-<img src="https://imagedelivery.net/Dr98IMl5gQ9tPkFM5JRcng/3e5f6fbd-9bc6-4aa1-368e-e8bb1d6ca100/Ultra" alt="Contextual AI logo" width="300">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ContextualAI/examples/blob/main/images/Contextual_AI_Lockup_Light.png?raw=true">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/ContextualAI/examples/blob/main/images/Contextual_AI_Lockup_Dark.png?raw=true">
+  <img src="https://github.com/ContextualAI/examples/blob/main/images/Contextual_AI_Lockup_Dark.png?raw=true" alt="Contextual AI" width="300">
+</picture>
 
+<p></p>
 This repository contains an example notebook demonstrating how to evaluate Contextual AI's RAG agents using the RAGAS framework. THis approach can also be used with other external evaluation approaches.
 
 ## Repository Structure
