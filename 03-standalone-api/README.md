@@ -1,3 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ContextualAI/examples/blob/main/images/Contextual_AI_Lockup_Light.png?raw=true">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/ContextualAI/examples/blob/main/images/Contextual_AI_Lockup_Dark.png?raw=true">
+  <img src="https://github.com/ContextualAI/examples/blob/main/images/Contextual_AI_Lockup_Dark.png?raw=true" alt="Contextual AI" width="300">
+</picture>
+
 # Component API Examples
 
 This repository contains examples of using the component API's.

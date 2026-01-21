@@ -1,7 +1,12 @@
 # Contextual AI Platform Intro Examples
 
-<img src="https://imagedelivery.net/Dr98IMl5gQ9tPkFM5JRcng/3e5f6fbd-9bc6-4aa1-368e-e8bb1d6ca100/Ultra" alt="Alt Text" width="300">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ContextualAI/examples/blob/main/images/Contextual_AI_Lockup_Light.png?raw=true">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/ContextualAI/examples/blob/main/images/Contextual_AI_Lockup_Dark.png?raw=true">
+  <img src="https://github.com/ContextualAI/examples/blob/main/images/Contextual_AI_Lockup_Dark.png?raw=true" alt="Contextual AI" width="300">
+</picture>
 
+<p></p>
 This repository contains example notebooks demonstrating how to use the Contextual AI Platform for creating and deploying generative AI agents. The examples focus on implementing Retrieval-Augmented Generation (RAG) for financial use cases.
 
 ## Repository Structure
